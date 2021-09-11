@@ -1,0 +1,24 @@
+﻿@model dynamic
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+</head>
+<body>
+<div>
+    <form action="/Auth/Login" method="post">
+        <label for="userId">Account: </label>
+        <input type="text" name="userId" id="userId"/>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"/>
+        <input type="submit" value="送出" />
+    </form> 
+</div>
+</body>
+</html>
